@@ -1,16 +1,27 @@
-# Riverpod Demo
+<a href="https://riverpod.dev">
+  <h1 align="center">
+    <picture>
+      <img alt="Riverpod" src="https://raw.githubusercontent.com/rrousselGit/riverpod/master/resources/icon/Facebook%20Cover%20A.png">
+    </picture>
+  </h1>
+</a>
 
-A new Flutter project.
+## 📋 Documentation
+This documentation contains some link: learning, demo_app and other.
 
-## Getting Started
+## 🧪 Testing Application
+This link contains a Testing Application:
+- [counter_app: Learning about State Provider, auto dispose.](https://github.com/kisahtegar/riverpod_demo/tree/master/counter_app)
+- [counter_app_2: Learning about extension, StateNotifier.](https://github.com/kisahtegar/riverpod_demo/tree/master/counter_app_2)
+- [demo_providers_ref: Learning about Provider & "ref" object.](https://github.com/kisahtegar/riverpod_demo/tree/master/demo_providers_ref)
+- [get_time_app: just simple provider to get time now.](https://github.com/kisahtegar/riverpod_demo/tree/master/get_time_app)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 📝 Riverpod Note
+This link contains a Testing Application:
+- [docs: learning about riverpod](https://riverpod.dev/docs/getting_started)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ About Us
+- 💻 All of my projects/repository are available at [github.com/kisahtegar](https://github.com/kisahtegar)
+- 📫 How to reach me **code.kisahtegar@gmail.com**
+- 📄 Know about my experiences [kisahcode.web.app](https://kisahcode.web.app)

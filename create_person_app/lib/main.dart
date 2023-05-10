@@ -104,11 +104,11 @@ class HomePage extends ConsumerWidget {
       ),
       body: Consumer(
         builder: (context, ref, child) {
-          final dataModel = ref.watch(peopleProvider);
+          final dataNotifier = ref.watch(peopleProvider);
           return ListView.builder(
-            itemCount: dataModel.count,
+            itemCount: dataNotifier.count,
             itemBuilder: (context, index) {
-              final person = dataModel.people[index];
+              final person = dataNotifier.people[index];
               return ListTile(
                 title: GestureDetector(
                   onTap: () async {
@@ -118,7 +118,7 @@ class HomePage extends ConsumerWidget {
                     );
 
                     if (updatedPerson != null) {
-                      dataModel.update(updatedPerson);
+                      dataNotifier.update(updatedPerson);
                     }
                   },
                   child: Text(person.displayName),
@@ -133,8 +133,8 @@ class HomePage extends ConsumerWidget {
           final person = await createOrUpdatePersonDialog(context);
 
           if (person != null) {
-            final dataModel = ref.read(peopleProvider);
-            dataModel.add(person);
+            final dataNotifier = ref.read(peopleProvider);
+            dataNotifier.add(person);
           }
         },
         child: const Icon(Icons.add),
@@ -143,7 +143,7 @@ class HomePage extends ConsumerWidget {
   }
 }
 
-//
+// Dialog Widget
 final nameController = TextEditingController();
 final ageController = TextEditingController();
 
